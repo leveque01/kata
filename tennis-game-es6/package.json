@@ -1,0 +1,40 @@
+{
+  "name": "tennis-game",
+  "main": "main.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --require babel-polyfill --require babel-register --ui tdd --colors",
+    "start": "node_modules/webpack/bin/webpack.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "mocha": "^5.2.0",
+    "node-libs-browser": "^2.1.0",
+    "sinon": "^6.1.5",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "keywords": [
+    "webpack",
+    "starter",
+    "es6",
+    "babel"
+  ]
+}
