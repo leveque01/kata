@@ -3,6 +3,5 @@
 Kata in javascript with mocha test.
 Javascript es5 and es6 versions.
 
-TODO :
-* Make a readme with details
-* List all katas with links, descriptions and credits
+* https://github.com/emilybache/Tennis-Refactoring-Kata
+* https://github.com/lucaminudel/TDDwithMockObjectsAndDesignPrinciples/tree/master/TDDMicroExercises
